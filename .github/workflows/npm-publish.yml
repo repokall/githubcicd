@@ -10,7 +10,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     environment: ABAP_USER
     env:
       ABAP_USER : ${{ vars.ABAP_USER }}

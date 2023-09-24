@@ -13,7 +13,7 @@ builder:
     - name: deploy-to-abap
       afterTask: generateCachebusterInfo
       configuration:
-        ignoreCertError: true
+        ignoreCertError: false
         target:
           url: env:ABAP_URL
           auth: basic

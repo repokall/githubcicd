@@ -6,6 +6,7 @@ sap.ui.define(
         return Component.extend("com.test.githubcicd.Component", {
             metadata: {
                 manifest: "json"
+                
             }
         });
     }

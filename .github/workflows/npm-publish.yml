@@ -33,4 +33,5 @@ jobs:
       run: |
         echo "repository variable : ${{ vars.ABAP_URL }}"
     - run: npm ci
+    - run: npm run lint
     - run: echo 'yes' | npm run deploy
